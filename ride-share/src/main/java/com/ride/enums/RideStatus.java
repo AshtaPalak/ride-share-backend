@@ -11,7 +11,6 @@ public enum RideStatus {
     CanceledByUser,     // Ride canceled by the user
     CanceledByDriver,   // Ride canceled by the driver
     NoShow,             // Driver or passenger did not show up
-  
 	Delayed, // Driver arrival or ride is delayed
 
 }

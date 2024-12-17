@@ -22,10 +22,7 @@ public class Rating {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	private Customer customer;
-	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	private Driver driver;
+
 	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private Trip trip;
 	private int rating;
