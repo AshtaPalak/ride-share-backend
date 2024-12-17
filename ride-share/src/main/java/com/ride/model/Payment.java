@@ -7,6 +7,7 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import com.ride.enums.CabType;
 import com.ride.enums.PaymentMethod;
+import com.ride.enums.PaymentStatus;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -29,6 +30,6 @@ public class Payment {
 	private double amount;
 	@CreationTimestamp
 	private LocalDateTime createdAt;
+	private PaymentStatus paymentStatus;
 	
-
 }

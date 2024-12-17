@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+import com.ride.enums.CabType;
 import com.ride.enums.RideStatus;
 
 import jakarta.persistence.CascadeType;
@@ -42,6 +43,6 @@ public class Trip {
 	private double destinationLatitude;
 	@CreationTimestamp
 	private LocalDate createdAt;
-	
+	private CabType cabType;
 
 }

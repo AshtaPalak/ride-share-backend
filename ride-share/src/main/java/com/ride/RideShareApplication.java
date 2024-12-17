@@ -8,6 +8,7 @@ public class RideShareApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RideShareApplication.class, args);
+		System.out.println("working");
 	}
 
 }
